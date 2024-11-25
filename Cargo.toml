@@ -68,7 +68,7 @@ rustls = ["tls-rustls-webpki-roots"]
 tls-rustls = ["tls-rustls-webpki-roots"]
 tls-vendored = ["tls-native-vendored"]
 # Internal feature used to indicate rustls support
-__rustls = ["rustls-opt-dep"]
+__rustls = ["rustls-opt-dep", "rustls-opt-dep/ring"]
 
 [package.metadata.docs.rs]
 all-features = true
